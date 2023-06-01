@@ -1,0 +1,49 @@
+.artist-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+  
+.artist-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+  
+.artist-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+  
+.artist-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+ 
+.album {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.album img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+}
+
+.album h3 {
+    margin: 0;
+}
+
